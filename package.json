@@ -12,7 +12,7 @@
     "mail",
     "domainkeys",
     "domainkey",
-    "rfc6368"
+    "rfc6376"
   ],
   "homepage": "https://github.com/jhermsmeier/node-dkim-quoted-printable#readme",
   "repository": {
