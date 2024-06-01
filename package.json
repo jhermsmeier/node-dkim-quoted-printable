@@ -1,0 +1,31 @@
+{
+  "name": "dkim-quoted-printable",
+  "version": "1.0.0",
+  "description": "DKIM-specific quoted-printable encoding",
+  "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de)",
+  "license": "MIT",
+  "main": "lib/quoted-printable.js",
+  "keywords": [
+    "dkim",
+    "arc",
+    "email",
+    "mail",
+    "domainkeys",
+    "domainkey",
+    "rfc6368"
+  ],
+  "homepage": "https://github.com/jhermsmeier/node-dkim-quoted-printable#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhermsmeier/node-dkim-quoted-printable.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jhermsmeier/node-dkim-quoted-printable/issues"
+  },
+  "scripts": {
+    "test": "control"
+  },
+  "devDependencies": {
+    "@jhermsmeier/control": "2.0.3"
+  }
+}

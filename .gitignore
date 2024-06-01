@@ -1,0 +1,8 @@
+# Ignore all dotfiles by default
+.*
+
+# Don't ignore these dotfiles
+!.editorconfig
+!.gitignore
+!.npmignore
+!.npmrc
