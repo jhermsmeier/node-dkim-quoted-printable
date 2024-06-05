@@ -45,6 +45,11 @@ context( 'DKIM Quoted Printable', () => {
       assert.strictEqual( qp.decode( input ), expected )
     })
 
+    test( 'malformed escape', () => {
+      var input = 'testh=malformed'
+      assert.throws(() => qp.decode( input ))
+    })
+
   })
 
 })
